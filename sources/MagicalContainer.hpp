@@ -16,7 +16,6 @@ public:
 
     int size() const;
 
-    // Ascending Iterator
     class AscendingIterator {
     private:
         const MagicalContainer& container;
@@ -89,7 +88,6 @@ public:
     };//end AscendingIterator
 
 
-    // SideCross Iterator
     class SideCrossIterator {
     private:
         MagicalContainer& container;
@@ -174,12 +172,12 @@ public:
         }
     };//end SideCrossIterator
 
-    // Prime Iterator
     class PrimeIterator {
     private:
         MagicalContainer& container;
         size_t index;
 
+        //was helped by chatGPT
         bool isPrime(int num) const {
             if (num <= 1)
                 return false;
@@ -195,9 +193,8 @@ public:
     public:
         PrimeIterator(MagicalContainer& cntr) : container(cntr), index(0) {
             while (index < container.size() && !isPrime(container.numbers[index])) {
-            ++index;
-        }
-
+                ++index;
+            }
         }
 
         const int& operator*() const {
