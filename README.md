@@ -4,8 +4,8 @@ Background Story: In the ancient kingdom of Iteratia, there exists a magical con
 Objective: In this assignment, you will create a custom container class named "MagicalContainer" to store mystical elements represented by integers. You will also implement three custom iterator classes, each representing a different order of traversal through the container. By the end of this assignment, you should have a deeper understanding of custom iterators and their applications in C++.
 
 Instructions:
-1.	Create a user-defined container class named "MagicalContainer" that can store integers representing mystical elements. Implement necessary methods for adding elements, removing elements, and retrieving the size of the container. You can use a dynamic array or any other suitable data structure for internal storage.
-2.	Create three custom iterator classes named "AscendingIterator", "SideCrossIterator", and "PrimeIterator" that will allow traversal of elements in the MagicalContainer class in ascending order, cross order, and prime numbers only, respectively. Each iterator should support the following operations:
+1.	Create a user-defined container class named "MagicalContainer" that can store integers representing mystical elements. Implement necessary methods for adding elements, removing elements, and retrieving the size of the container.
+2.	Create three custom iterator classes named "AscendingIterator", "SideCrossIterator", and "PrimeIterator" that will allow traversal of elements in the MagicalContainer class in ascending order, cross order, and prime numbers only, respectively. Each iterator support the following operations:
 
 operations:
 
